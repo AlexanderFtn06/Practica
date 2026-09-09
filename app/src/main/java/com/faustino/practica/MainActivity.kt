@@ -47,7 +47,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             PracticaTheme {
-                    CalculadoraSuma()
+                    PantallaTareas()
                 }
             }
         }
@@ -268,6 +268,6 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Composable
 fun GreetingPreview() {
     PracticaTheme {
-        BoxExp()
+
     }
 }
